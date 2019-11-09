@@ -1,0 +1,51 @@
+<html>
+    <head><link rel="stylesheet" type="text/css" href="dice.css"></head>
+<body>
+   
+
+    <h1>TypeScript HTML App</h1>
+
+    <div id="content">
+        <form id="CalcForm">
+            <input id="xId" /><br />
+            <input id="yId" /><br />
+            <input id="addBtn" type="button" value="Add" />
+        </form>
+    </div>
+    <div>
+        <p>The Result is: <span id="outputId"></span></p>  
+    </div>
+    
+            <!--My dice-->
+    <section>
+    <button id="btn">Roll Dice</button>
+        <div id="die1" class="dice">0</div>
+        <div id="die2" class="dice">0</div>
+        <h2 id="result"></h2>
+    </section>
+
+            <!--My calculator-->
+    <section>
+           
+                <input id="val1" type="text"/>
+                <select id="arith">
+                    <option value="+"> + </option>
+                    <option value="-"> - </option>
+                    <option value="/"> / </option>
+                </select>
+                <input id="val2" type="text"/>
+                <button id="addBTN">Calculate</button>
+
+            
+            <article><h3> The result is <span id="calculation"> </span></h3></article>
+        </section>
+
+
+    <script data-main="app" type="text/javascript" src="lib/require.js"></script>
+    <script type="text/javascript" src="build/person.js"></script>
+    <!-- <script type="text/javascript" src="build/dice.js"></script> -->
+    <script type="text/javascript" src="build/calculator2.js" ></script>
+    <script type="text/javascript" src="build/calculator.js" ></script>
+  
+</body>
+</html>

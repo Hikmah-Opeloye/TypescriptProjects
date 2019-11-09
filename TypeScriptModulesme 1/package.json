@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "exec": "node build/main"
+  },
+  "devDependencies": {
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {}
+}
