@@ -5,16 +5,16 @@ window.onload = function () {
     var valu1 = document.getElementById('val1');
     var valu2 = document.getElementById('val2');
     var span = document.getElementById("calculation");
-    var select = document.getElementById('arith').value;
+    var select = document.getElementById('arith');
     var result;
     function calc() {
-        if (select === "+") {
+        if (select.options[select.selectedIndex].value === "+") {
             result = parseInt(valu1.value) + parseInt(valu2.value);
         }
-        if (select === "-") {
+        if (select.options[select.selectedIndex].value === "-") {
             result = parseInt(valu1.value) - parseInt(valu2.value);
         }
-        if (select === "/") {
+        if (select.options[select.selectedIndex].value === "/") {
             result = parseInt(valu1.value) / parseInt(valu2.value);
         }
         span.innerHTML = result.toString();

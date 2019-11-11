@@ -1,12 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
 .dice{
     width:50px;
     height: 50px;
     border:2px solid grey;
     text-align: center;
-    margin: 5px;
+    margin-top: 5px;
 }
 #btn{
     cursor: pointer;
-    
     height: 30px;
+    margin-bottom: 10px;
+}
+nav {
+width:80%;
+background-color: rgb(9, 163, 209);
+}
+a {
+    padding:5px;
+    margin: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+li {
+    display:inline-block;
+    list-style-type: none;
+}
+#wrapper {
+margin: auto;
+padding: 20px;
 }

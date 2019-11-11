@@ -1,5 +1,6 @@
 window.onload = function()
-{var bTn:HTMLButtonElement = document.getElementById('btn') as HTMLButtonElement;
+{
+    var bTn:HTMLButtonElement = document.getElementById('btn') as HTMLButtonElement;
 bTn.addEventListener('click',roll);
 
 function roll():void 

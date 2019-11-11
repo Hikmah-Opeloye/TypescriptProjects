@@ -10,6 +10,6 @@ define(["require", "exports", "./building", "./person"], function (require, expo
     testBuilding.addRoom({ width: 21, length: 13 });
     testBuilding.addRoom({ width: 8, length: 10 });
     console.log("The total area of the house is: ", testBuilding.calcArea());
-    console.log(person_1.default.name);
+    console.log(person_1.default.deathdate());
 });
 //# sourceMappingURL=main.js.map

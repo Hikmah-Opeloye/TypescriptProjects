@@ -11,7 +11,8 @@ testBuilding.addRoom({ width: 10, length: 20 });
 testBuilding.addRoom({ width: 21, length: 13 });
 testBuilding.addRoom({ width: 8, length: 10 });
 console.log("The total area of the house is: ", testBuilding.calcArea());
-console.log(p.name);
+console.log(p.deathdate());
+
 
 
 

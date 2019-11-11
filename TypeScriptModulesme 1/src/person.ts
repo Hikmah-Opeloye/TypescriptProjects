@@ -2,18 +2,18 @@
 //creating a structure for person
 
 interface Person {
-  name: string;
-  age?: number;
+    name: string;
+    age?: number;
     kids: number;
     ageOfDeath: number;
-  calcPets: () => number;
-  makeYounger: (years: number) => void;
-  greet: (msg: string) => string;
-  deathdate: () => number | undefined;
+    calcPets: () => number;
+    makeYounger: (years: number) => void;
+    greet: (msg: string) => string;
+    deathdate: () => number | undefined;
     
 }
 //creating an object of type person
- var p: Person = {
+var p: Person = {
     name: 'John',
     age: 40,
     kids: 4,
@@ -35,7 +35,6 @@ interface Person {
         var date = new Date();
         var currentyear = date.getFullYear();
         var deathday = yearsleft + currentyear;
-        console.log(deathday);
         return deathday;
         
         }   

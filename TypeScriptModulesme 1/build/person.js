@@ -25,7 +25,6 @@ define(["require", "exports"], function (require, exports) {
                 var date = new Date();
                 var currentyear = date.getFullYear();
                 var deathday = yearsleft + currentyear;
-                console.log(deathday);
                 return deathday;
             }
         }
